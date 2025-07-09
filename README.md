@@ -38,7 +38,7 @@ function App() {
       currency: formData.currency,
       amount: parseFloat(formData.amount),
       appid: formData.app_id,
-      hashToken: '<<YOUR APP ID>>', // Replace with your actual hash token
+      hashToken: 'a12dfaeawsk41daad2', // Replace with your actual hash token
       apptoken:
         '<<YOUR APP TOKEN>>', // Replace with your actual app token
       orderReference: formData.reference,
