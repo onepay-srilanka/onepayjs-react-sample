@@ -39,7 +39,7 @@ function App() {
   const [formData, setFormData] = useState({
     currency: 'LKR',
     amount: '',
-    app_id: '80NR1189D04CD635D8ACD',
+    app_id: '<<YOUR APP ID>>',
     reference: '',
     customer_first_name: '',
     customer_last_name: '',
@@ -68,7 +68,7 @@ function App() {
       appid: formData.app_id,
       hashToken: 'GR2P1189D04CD635D8AFD', // Replace with your actual hash token
       apptoken:
-        'ca00d67bf74d77b01fa26dc6780d7ff9522d8f82d30ff813d4c605f2662cea9ad332054cc66aff68.EYAW1189D04CD635D8B20', // Replace with your actual app token
+        '<<YOUR APP TOKEN>>', // Replace with your actual app token
       orderReference: formData.reference,
       customerFirstName: formData.customer_first_name,
       customerLastName: formData.customer_last_name,
